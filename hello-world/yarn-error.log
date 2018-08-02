@@ -1,0 +1,32 @@
+Arguments: 
+  /Users/djr/.nvm/versions/node/v6.10.3/bin/node /usr/local/Cellar/yarn/1.5.1_1/libexec/bin/yarn.js install jasmine -g
+
+PATH: 
+  /Users/djr/.rvm/gems/ruby-2.4.1/bin:/Users/djr/.rvm/gems/ruby-2.4.1@global/bin:/Users/djr/.rvm/rubies/ruby-2.4.1/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/djr/.nvm/versions/node/v6.10.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/djr/.rvm/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  6.10.3
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `--global` has been deprecated. Please run "yarn global add jasmine" instead.
+      at MessageError.Error (native)
+      at new MessageError (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:186:110)
+      at Object.<anonymous> (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:21987:13)
+      at next (native)
+      at step (/usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:98:30)
+      at /usr/local/Cellar/yarn/1.5.1_1/libexec/lib/cli.js:109:13
